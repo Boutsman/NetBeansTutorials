@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="be.boutsman.googletoolbar">
+    <module_version install_time="1460239576233" last="true" origin="installer" specification_version="1.0">
+        <file crc="3935265906" name="config/Modules/be-boutsman-googletoolbar.xml"/>
+        <file crc="552070411" name="modules/be-boutsman-googletoolbar.jar"/>
+    </module_version>
+</module>

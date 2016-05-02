@@ -1,0 +1,9 @@
+C:\Program Files\NetBeans 8.0.2\platform=1444217860245
+cluster.C:/Users/Boutsman/Documents/NetBeansProjects/EventManager/build/cluster=1462005705620
+cluster.C:/Program Files/NetBeans 8.0.2/platform=1444217860245
+user=1462005705620
+crc=7
+locale=nl_BE
+branding=eventmanager
+java.version=1.8.0_60
+java.vm.version=25.60-b23

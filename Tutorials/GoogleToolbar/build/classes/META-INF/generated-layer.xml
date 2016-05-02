@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="File">
+            <file name="be-boutsman-googletoolbar-GoogleActionListener.instance">
+                <!--be.boutsman.googletoolbar.GoogleActionListener-->
+                <attr name="displayName" stringvalue="NOT-USED"/>
+                <attr name="instanceCreate" newvalue="be.boutsman.googletoolbar.GoogleActionListener"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="be-boutsman-googletoolbar-GrafischTopComponent.instance">
+                <!--be.boutsman.googletoolbar.GrafischTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="be.boutsman.googletoolbar.GrafischTopComponent"/>
+                <attr name="preferredID" stringvalue="GrafischTopComponent"/>
+                <attr
+                    bundlevalue="be.boutsman.googletoolbar.Bundle#CTL_GrafischAction" name="displayName"/>
+                <attr name="iconBase" stringvalue="be/boutsman/googletoolbar/icon.gif"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="File">
+            <file name="be-boutsman-googletoolbar-GoogleActionListener.shadow">
+                <!--be.boutsman.googletoolbar.GoogleActionListener-->
+                <attr name="originalFile" stringvalue="Actions/File/be-boutsman-googletoolbar-GoogleActionListener.instance"/>
+                <attr intvalue="0" name="position"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="xml">
+        <folder name="entities">
+            <folder name="be_boutsman_googletoolbar">
+                <file name="Grafisch" url="nbres:/org/netbeans/modules/settings/resources/properties-1_0.dtd">
+                    <!--be.boutsman.googletoolbar.GrafischTopComponent-->
+                    <attr name="hint.originalPublicID" stringvalue="-//be.boutsman.googletoolbar//Grafisch//EN"/>
+                </file>
+            </folder>
+        </folder>
+        <folder name="memory">
+            <folder name="be">
+                <folder name="boutsman">
+                    <folder name="googletoolbar">
+                        <file name="GrafischTopComponent">
+                            <!--be.boutsman.googletoolbar.GrafischTopComponent-->
+                            <attr name="settings.providerPath" stringvalue="xml/lookups//be_boutsman_googletoolbar/Grafisch.instance"/>
+                        </file>
+                    </folder>
+                </folder>
+            </folder>
+        </folder>
+        <folder name="lookups">
+            <folder name="be_boutsman_googletoolbar">
+                <file name="Grafisch.instance">
+                    <!--be.boutsman.googletoolbar.GrafischTopComponent-->
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.create" name="instanceCreate"/>
+                    <attr
+                        methodvalue="org.netbeans.api.settings.Factory.properties" name="settings.convertor"/>
+                    <attr name="settings.instanceClass" stringvalue="be.boutsman.googletoolbar.GrafischTopComponent"/>
+                    <attr name="settings.instanceOf" stringvalue="be.boutsman.googletoolbar.GrafischTopComponent"/>
+                    <attr boolvalue="true" name="xmlproperties.preventStoring"/>
+                </file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="Window">
+            <file name="be-boutsman-googletoolbar-GrafischTopComponent.shadow">
+                <!--be.boutsman.googletoolbar.GrafischTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Window/be-boutsman-googletoolbar-GrafischTopComponent.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="GrafischTopComponent.settings">
+                <!--be.boutsman.googletoolbar.GrafischTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="be.boutsman.googletoolbar.GrafischTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="explorer">
+                <file name="GrafischTopComponent.wstcref">
+                    <!--be.boutsman.googletoolbar.GrafischTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="GrafischTopComponent"/>
+  <state opened="false"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
