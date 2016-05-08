@@ -11,6 +11,6 @@
   </constraints>
   <bounds x="192" y="247" width="441" height="381" />
   <frame state="0"/>
-    <active-tc  id="projectTabLogical_tc" />
+    <active-tc  id="projectTabLogical_tc"  prev-id="projectTabLogical_tc" />
     <empty-behavior permanent="true"/>
 </mode>

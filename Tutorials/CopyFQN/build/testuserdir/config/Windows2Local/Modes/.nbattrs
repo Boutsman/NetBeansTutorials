@@ -6,20 +6,21 @@
     </fileobject>
     <fileobject name="commonpalette">
         <attr name="WinSys-TCRef-Order" stringvalue="CommonPalette"/>
-        <attr name="_palette_visible_FormDesignerPalette" boolvalue="true"/>
-        <attr name="_palette_visible__empty_" boolvalue="false"/>
     </fileobject>
     <fileobject name="editor">
-        <attr name="WinSys-TCRef-Order" stringvalue="Welcome/MultiView-java#007Cja5C79D3CFtext#002Ehistory#007C/CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="Welcome/MultiView-java#002Eso10CA9CC6xt#002Ehistory#007C_6/CoverageReportTopComponent/HQLEditorTopComponent/dbgInstances/MultiView-java#002Eso2D0988CFtext#002Ehistory#007C"/>
     </fileobject>
     <fileobject name="explorer">
-        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/projectTab_tc/services/favorites/DashboardTopComponent/debuggingView/profiler_cp"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="projectTabLogical_tc/favorites/DashboardTopComponent/debuggingView/profiler_cp"/>
+    </fileobject>
+    <fileobject name="leftSlidingSide">
+        <attr name="WinSys-TCRef-Order" stringvalue="services/projectTab_tc"/>
     </fileobject>
     <fileobject name="navigator">
         <attr name="WinSys-TCRef-Order" stringvalue="navigatorTC"/>
     </fileobject>
     <fileobject name="output">
-        <attr name="WinSys-TCRef-Order" stringvalue="watchesView/NotificationCenterTopComponent/localsView/resultsView/callstackView/breakpointsView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/TerminalContainerTopComponent/output/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/ReporterResultTopComponent/AnalysisResultTopComponent/eventsView/profiler_pp/CallHierarchyTopComponent/AnalyzerTopComponent/JavadocTopComponent/profiler_to/classes"/>
+        <attr name="WinSys-TCRef-Order" stringvalue="output/watchesView/NotificationCenterTopComponent/localsView/resultsView/callstackView/breakpointsView/sources/sessionsView/threadsView/bookmarks/versioning_output/search-results/gsf-testrunner-results/refactoring-preview/find-usages/TerminalContainerTopComponent/svnversioning/hgversioningTC/GitVersioning/GitRepositories/TaskListTopComponent/ReporterResultTopComponent/AnalysisResultTopComponent/eventsView/profiler_pp/CallHierarchyTopComponent/AnalyzerTopComponent/JavadocTopComponent/profiler_to/classes"/>
     </fileobject>
     <fileobject name="properties">
         <attr name="WinSys-TCRef-Order" stringvalue="CssStylesTC/properties/AnalyzeStackTopComponent/JavaHierarchyTopComponent"/>

@@ -1,5 +1,5 @@
 -------------------------------------------------------------------------------
->Log Session: Sunday, May 1, 2016 4:30:36 AM CEST
+>Log Session: Monday, May 9, 2016 12:30:37 AM CEST
 >System Info: 
   Product Version         = NetBeans IDE 8.0.2 (Build 201411181905) (#8230772f5f18)
   Operating System        = Windows 7 version 6.1 running on amd64
@@ -41,7 +41,8 @@ INFO [org.netbeans.modules.netbinox]: Install area set to file:/C:/Program Files
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.form.nb] use org.jdesktop.layout which is deprecated: Use javax.swing.GroupLayout instead. (In form editor: select Form ... in Inspector; change Layout Generation Style to Standard Java 6 code.)
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.editor.lib, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.deprecated.pre65formatting which is deprecated.
 WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.ide.kit, org.netbeans.modules.xml.text] use org.netbeans.modules.editor.structure which is deprecated.
-WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.apisupport.ant, org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
+WARNING [org.netbeans.core.modules]: the modules [org.netbeans.modules.java.hints, org.netbeans.modules.maven.hints] use org.netbeans.modules.java.hints.legacy.spi which is deprecated: Use Java Hints SPI (org.netbeans.spi.java.hints) instead.
+WARNING [org.netbeans.core.startup.InstalledFileLocatorImpl]: no code name base passed when looking up build_info at org.netbeans.modules.uihandler.BuildInfo.logBuildInfo(BuildInfo.java:84)
 INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.openide.util.lookup [8.25.2 201505281753]
 	org.openide.util [8.39.1 201411181905]
@@ -392,9 +393,6 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.maven.persistence/1 [1.25.1 201411181905]
 	org.netbeans.modules.maven.junit/1 [1.28.1 201411181905]
 	org.netbeans.modules.maven.hints/1 [1.36.1 201411181905]
-	org.netbeans.libs.freemarker/1 [2.30.1.238 238 201411181905]
-	org.netbeans.modules.apisupport.project/1 [1.71.1 201411181905]
-	org.netbeans.modules.maven.apisupport/1 [1.54.1 201411181905]
 	org.netbeans.modules.masterfs.windows [1.13.1 201411181905]
 	org.netbeans.modules.masterfs.nio2 [1.12.1 201411181905]
 	org.netbeans.modules.bugtracking.commons [1.3.1 201411181905]
@@ -444,6 +442,7 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.html.custom [1.2.1 201411181905]
 	org.netbeans.core.browser/1 [1.24.1.1 1 201411181905]
 	org.netbeans.modules.html.angular [1.7.2 201411181905]
+	org.netbeans.libs.freemarker/1 [2.30.1.238 238 201411181905]
 	org.netbeans.modules.hibernate4lib/1 [1.4.1.238 201411181905]
 	org.netbeans.modules.hibernate/1 [1.29.1.1 1 201411181905]
 	org.netbeans.modules.hibernateweb [1.22.1 201411181905]
@@ -468,25 +467,12 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.netbeans.modules.debugger.jpda.kit [1.12.1 201411181905]
 	org.netbeans.modules.debugger.jpda.heapwalk/1 [1.27.1 201411181905]
 	org.netbeans.modules.css.prep [1.21.2 201411181905]
-	org.netbeans.modules.copyfqn [1.0 160501]
+	org.netbeans.modules.copyfqn [1.0 160508]
 	org.eclipse.mylyn.bugzilla.core [3.10.0 3.10.0.20131024-1218]
 	org.apache.commons.httpclient [3.1.0 3.1.0]
 	org.netbeans.modules.bugzilla [1.72.2 201411181905]
 	org.netbeans.modules.bugzilla.exceptionreporter [1.20.1 201411181905]
 	org.netbeans.modules.bugtracking.bridge [1.41.1 201411181905]
-	org.netbeans.modules.apisupport.wizards [1.15.1 201411181905]
-	org.netbeans.modules.apisupport.refactoring [1.32.1 201411181905]
-	org.netbeans.modules.apisupport.ant [2.67.1 201411181905]
-	org.netbeans.modules.apisupport.paintapp [1.27.1 201411181905]
-	org.netbeans.modules.apisupport.osgidemo [1.19.1 201411181905]
-	org.netbeans.libs.nbi.ant [1.19.1 201411181905]
-	org.netbeans.libs.nbi.engine [1.18.1 201411181905]
-	org.netbeans.modules.apisupport.installer [1.19.1 201411181905]
-	org.netbeans.modules.apisupport.feedreader/1 [1.30.1 201411181905]
-	org.netbeans.modules.apisupport.harness [1.39.2 201411181905]
-	org.netbeans.modules.apisupport.crudsample [1.19.1 201411181905]
-	org.netbeans.modules.apisupport.kit [1.27.1 201411181905]
-	org.netbeans.modules.apisupport.installer.maven [1.18.1 201411181905]
 	org.netbeans.modules.ant.grammar/1 [1.40.1 201411181905]
 	org.netbeans.libs.svnClientAdapter.svnkit/1 [1.21.2 201502261250]
 	org.netbeans.libs.svnClientAdapter.javahl/1 [1.20.1 201411181905]
@@ -510,8 +496,8 @@ INFO [org.netbeans.core.startup.NbEvents]: Turning on modules:
 	org.apache.commons.lang [2.4.0 2.4.0]
 	javaewah.dummy [0.7.9 0.7.9]
 	com.jcraft.jzlib [1.0.7 1.0.7]
-INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.textile.core@1.9.0.20131007-2055 resolved
+INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.mylyn.wikitext.confluence.core@1.9.0.20131007-2055 resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.jgit.java7@3.4.1.201406201815-r resolved
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 started
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy resolver: Windows
@@ -519,7 +505,8 @@ INFO [org.netbeans.core.network.proxy.windows.WindowsNetworkProxy]: Windows syst
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy reloading succeeded.
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy - mode: direct
 INFO [org.netbeans.core.network.proxy.NetworkProxyReloader]: System network proxy: fell to default (correct if direct mode went before)
-WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.apisupport.project.NbModuleProject$4.run(NbModuleProject.java:760)
+WARNING [org.netbeans.TopSecurityManager]: use of system property netbeans.user has been obsoleted in favor of InstalledFileLocator/Places at org.netbeans.modules.java.api.common.project.ProjectHooks$ProjectOpenedHookImpl.updateUserBuildPropertiesRef(ProjectHooks.java:573)
+WARNING [org.netbeans.modules.masterfs.filebasedfs.utils.FileChangedManager]: 591 ms in new File("C:\Users\Boutsman\Documents\NetBeansProjects\CopyFQN\build\testuserdir\var\cache\index\s27\errors").exists()
 Diagnostic information
 Input arguments:
 	-Dnetbeans.importclass=org.netbeans.upgrade.AutoUpgrade
@@ -549,15 +536,117 @@ Input arguments:
 Compiler: HotSpot 64-Bit Tiered Compilers
 Heap memory usage: initial 32,0MB maximum 910,5MB
 Non heap memory usage: initial 2,4MB maximum -1b
-Garbage collector: PS Scavenge (Collections=19 Total time spent=0s)
-Garbage collector: PS MarkSweep (Collections=4 Total time spent=0s)
-Classes: loaded=8863 total loaded=8871 unloaded 0
+Garbage collector: PS Scavenge (Collections=18 Total time spent=0s)
+Garbage collector: PS MarkSweep (Collections=3 Total time spent=0s)
+Classes: loaded=9811 total loaded=9811 unloaded 0
 INFO [org.netbeans.core.ui.warmup.DiagnosticTask]: Total memory 8.470.220.800
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1.352 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 22 binary roots took: 1.654 ms
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Boutsman\Documents\NetBeansProjects\BlueJSchema\src took: 101 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 8 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Boutsman\Documents\NetBeansProjects\BlueJSchema\build\classes-generated took: 45 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 3 ms]
-INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 146 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 11 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 3.322 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 20 binary roots took: 7.767 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Boutsman\Documents\NetBeansProjects\TestReflection\src took: 421 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 12 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Users\Boutsman\Documents\NetBeansProjects\TestReflection\test took: 2 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 2 source roots took: 423 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 12 ms]
+WARNING [org.netbeans.modules.parsing.impl.TaskProcessor]: ParserManager.parse called in AWT event thread by: org.netbeans.modules.copyfqn.CopyFQNAction.actionPerformed(CopyFQNAction.java:119)
+INFO: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:798)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:573)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 30 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 1 ms
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@6b48334a[MultiFileObject@4236fc1d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+WARNING [org.netbeans.modules.options.keymap.LayersBridge]: Invalid shortcut: org.openide.loaders.BrokenDataShadow@6b48334a[MultiFileObject@4236fc1d[Keymaps/NetBeans/D-BACK_QUOTE.shadow]]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files\NetBeans 8.0.2\ide\jsstubs\reststubs.zip took: 350 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files\NetBeans 8.0.2\ide\jsstubs\domstubs.zip took: 292 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Indexing of: C:\Program Files\NetBeans 8.0.2\ide\jsstubs\corestubs.zip took: 211 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 3 source roots took: 853 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
+INFO: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:798)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:573)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+java.lang.IllegalStateException: No FileObject found for the following URL: file:/C:/Users/Boutsman/Documents/NetBeansProjects/TestReflection/test/
+	at org.netbeans.modules.java.testrunner.CommonTestUtil.getTestTargets(CommonTestUtil.java:174)
+	at org.netbeans.modules.java.testrunner.providers.JavaCommonTestUtilProvider.getTestTargets(JavaCommonTestUtilProvider.java:61)
+	at org.netbeans.modules.java.testrunner.hints.Utils.populateLocations(Utils.java:146)
+	at org.netbeans.modules.java.testrunner.hints.Utils.getValidCombinations(Utils.java:86)
+	at org.netbeans.modules.java.testrunner.hints.CreateTestMethodsHint.computeWarning(CreateTestMethodsHint.java:127)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at org.netbeans.modules.java.hints.providers.code.CodeHintProviderImpl$WorkerImpl.createErrors(CodeHintProviderImpl.java:336)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.runHint(HintsInvoker.java:798)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.access$400(HintsInvoker.java:111)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.runAndAdd(HintsInvoker.java:657)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker$ScannerImpl.scanDoNotGoDeeper(HintsInvoker.java:711)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeSuggestions(HintsInvoker.java:396)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:232)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:209)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:182)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsInvoker.computeHints(HintsInvoker.java:149)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:114)
+	at org.netbeans.modules.java.hints.spiimpl.hints.HintsTask.run(HintsTask.java:83)
+	at org.netbeans.modules.java.source.JavaSourceAccessor$CancelableTaskWrapper.run(JavaSourceAccessor.java:298)
+	at org.netbeans.modules.parsing.impl.TaskProcessor.callParserResultTask(TaskProcessor.java:573)
+	at org.netbeans.modules.parsing.impl.TaskProcessor$CompilationJob.run(TaskProcessor.java:744)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.openide.util.RequestProcessor$Task.run(RequestProcessor.java:1423)
+	at org.openide.util.RequestProcessor$Processor.run(RequestProcessor.java:2033)
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Resolving dependencies took: 1 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 binary roots took: 0 ms
+INFO [org.netbeans.modules.parsing.impl.indexing.RepositoryUpdater]: Complete indexing of 0 source roots took: 0 ms (New or modified files: 0, Deleted files: 0) [Adding listeners took: 0 ms]
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 256
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
 INFO [org.netbeans.core.netigso.Netigso]: bundle org.eclipse.osgi@3.9.1.v20140110-1610 stopped
